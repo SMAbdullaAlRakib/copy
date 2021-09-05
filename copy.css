@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-wrapper{
+    width: 100%;
+
+   
+}
+.conteiner{
+    width: 1170px;
+
+    margin: 0 auto;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menubg{
+    height: 100px;
+    background-color: violet;
+}
+.menubg .menu{
+    height: 100px;
+    background-color:red;
+    display: flex;
+}
+.menubg .menu .logo{
+        width: 200px;
+        height: 100px;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.menubg .menu .logo img{
+    height: 80px;
+}
+.menubg .menu .menulist{
+    width: 970px;
+    height: 100px;
+    background-color: rgb(255, 0, 191);
+}
+.menubg .menu .menulist ul{
+    display: flex;
+    justify-content:flex-end ;
+}
+.menubg .menu .menulist ul li{
+
+}
+.menubg .menu .menulist ul li a{
+    line-height: 100px;
+    padding: 20px 20px;
+    transition: all linear 4s;
+}
+.menubg .menu .menulist ul li a:hover{
+    background-color: teal;
+    color: tomato;
+}
